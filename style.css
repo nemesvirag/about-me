@@ -1,0 +1,95 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.profile-card {
+    width: 480px;
+    max-width: calc(100vw - 10px);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+body {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 15%;
+}
+body {
+    height: 100vh;
+}
+.head, .links{
+    text-align: center;
+}
+.head, .content {
+    width: 90%;
+    margin: 0 auto;
+}
+img {
+    width: 170px;
+    height: 120px;
+    border-radius: 50%;
+}
+.head{
+    width: 100%;
+}
+.profile-image {
+    margin-top: 10px;
+    width: 50%;
+}
+.name-headline {
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+.profile-card {
+    background-color: rgba(255, 255, 255, 0.607);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+body {
+    background: url(assets/background.png) no-repeat center center fixed;
+}
+img {
+    padding: 1px;
+    background-color: #666;
+}
+.content {
+    border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+img:hover {
+    transform: scale(1.1);
+    filter: grayscale(20%);
+}
+img {
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(50%);
+}
+.name {
+    font-size: 25px;
+}
+.head, .about {
+    margin-bottom: 10%;
+}
+.content {
+    padding-top: 8%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.about{
+    text-align: justify;
+}
+.facebook, .instagram {
+    color: #7a7a7a;
+    padding: 5px;
+}
+.facebook:hover {
+    color:black;
+}
+.instagram:hover {
+    color:black;
+}
